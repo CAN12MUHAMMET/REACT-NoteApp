@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+:root {
+  --primary-color: #3d348b;
+  --secondary-color: #7678ed;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.container {
+  max-width: 700px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.input {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 45px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: px;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.form {
+  justify-content: center;
+}
+.btnn {
+  margin-bottom: 35px;
+}
+.btn {
+  margin: 0 auto;
+  display: block;
+  line-height: 2em;
+  background-color: #7678ed;
+  color: #fff;
+  height: 35px;
+  width: 120px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  position: relative;
+  bottom: 20px;
+}
+.li {
+  list-style: none;
+  background-color: #7678ed;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+.prgrf {
+  background-color: #7678ed;
+  padding: 15px 15px;
+}
+.note-list {
+  margin: 20px;
+}
+.scrool {
+  overflow-y: scroll;
+  height: 370px;
+}
+.form {
+  align-self: flex-end;
+}
+.h1 {
+  color: #06134f;
+}
+.buttonb {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+}
+.btnd {
+  cursor: pointer;
+  background-color: #3d348b;
+  color: #fff;
+  width: 20%;
+  border-radius: 20px;
+  height: 35px;
+  border: 1px solid transparent;
+  
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 5px;
+}
+.plus {
+  justify-content: space-between;
+  height: 300px;
+}
+hr{
+  height: 5px;
+  background-color: #3d348b;
+  border: transparent;
+}
+small{
+  font-size: 20px;
+
+}
+.btns{
+  margin: 0 auto;
+  display: block;
+  line-height: 2em;
+  background-color: #c10a0a;
+  color: #fff;
+  height: 35px;
+  width: 120px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  position: relative;
+  bottom: 20px;
+}
+.allButton{
+  display: flex;
+}
